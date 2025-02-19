@@ -89,3 +89,20 @@ button {
 button:hover {
     background-color: #C70039;
 }
+
+#agenda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#agenda ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+} 
+
+#agenda ul li {
+    font-size: 18px;
+    margin: 5px 0;
+} 
