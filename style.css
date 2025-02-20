@@ -120,6 +120,31 @@ section ul {
     text-align: left;
 }
 
+.agenda-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.agenda-table th, .agenda-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.agenda-table th {
+    background-color: #333;
+    color: white;
+}
+
+.agenda-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
 h1, h2 {
     color: #900C3F;
 }
@@ -154,5 +179,8 @@ button:hover {
     }
     nav ul li {
         margin: 10px 0;
+    }
+    .agenda-table {
+        width: 100%;
     }
 }
