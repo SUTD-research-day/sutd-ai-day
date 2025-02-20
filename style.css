@@ -183,4 +183,7 @@ section ul {
         padding: 10px 16px;
         font-size: 16px;
     }
+    .organizers-logos img {
+        width: 120px;
+    }
 }
