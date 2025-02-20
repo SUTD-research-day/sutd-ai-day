@@ -93,7 +93,7 @@ body {
     width: 80%;
     margin: 20px auto;
     border-collapse: collapse;
-    
+    background: white;
     color: #333;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -104,7 +104,6 @@ body {
     border: 1px solid #ddd;
     padding: 12px;
     text-align: left;
-    
 }
 
 .agenda-table th {
@@ -112,17 +111,41 @@ body {
     color: white;
 }
 
-.agenda-table tr:nth-child(odd) td{
-    background-color: #f3c33e;
+.agenda-table tr:nth-child(odd) td {
+    background-color: #f8b400;
     color: #002147;
+    transition: background 0.3s ease-in-out;
 }
 
 .agenda-table tr:nth-child(even) td {
     background-color: #002147;
-    color: #f3c33e;
+    color: #f8b400;
+    transition: background 0.3s ease-in-out;
 }
 
+.agenda-table tr:hover td {
+    background-color: #ffcc33 !important;
+    color: #002147 !important;
+    transition: background 0.3s ease-in-out;
+}
 
+h2:hover {
+    background-color: #ffcc33 !important;
+    color: #002147 !important;
+    transition: background 0.3s ease-in-out;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h1:hover {
+    background-color: #fac523 !important;
+    color: white !important;
+    transition: background 0.3s ease-in-out;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
 section ul {
     list-style-type: none;
 }
