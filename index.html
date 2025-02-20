@@ -4,82 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUTD Research Day</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="nav-logo">SUTD AI Day</div>
-        <nav>
-            <ul>
-                <li><a href="#introduction">Home</a></li>
-                <li><a href="#agenda">Agenda</a></li>
-                <li><a href="#keynote">Keynote</a></li>
-                <li><a href="#panel">Panel</a></li>
-                <li><a href="#poster">Posters</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">SUTD AI Day</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#introduction">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#agenda">Agenda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#keynote">Keynote</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#panel">Panel</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#poster">Posters</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     
-    <div class="banner">
-        <div class="banner-text"></div>
+    <div class="container-fluid banner text-center">
     </div>
     
-    <section id="introduction">
-        <div><h1>Welcome to SUTD Research Day</h1></div>
-        <div>
-            <p>    
-            We are excited to announce the SUTD AI Research Day, a half-day event taking place on <b>Friday, April 25, 2025</b>.
-            This premier gathering brings together academic and industry researchers to showcase state-of-the-art advancements, 
+    <section id="introduction" class="container my-5">
+        <h1>Welcome to SUTD Research Day</h1>
+        <p>We are excited to announce the SUTD AI Research Day, a half-day event taking place on <b>Friday, April 25, 2025</b>.
+            This premier gathering brings together academic and industry researchers to showcase state-of-the-art advancements,
             exchange ideas, and foster collaborations in artificial intelligence research.
-            The event will feature discussions on state-of-the-art machine learning techniques, AI-driven solutions to real-world challenges—including multimodal AI, 
-            energy-efficient models, and human-AI collaboration—as well as innovative applications of AI in healthcare, robotics, security, and design.
-            SUTD AI Research Day offers an excellent platform for faculty, students, and professionals to gain international exposure, engage with leading experts, and explore the future of AI research.
-            </p>
-        </div>
-        
-        
-        <a href="https://your-registration-link.com" target="_blank" class="register-btn">Register Now</a>
+        </p>
+        <a href="https://forms.office.com/r/rMPzntEGgh" target="_blank" class="register-btn">Register Now</a>
 
     </section>
     
- 
-
-    <section id="agenda">
+    <section id="agenda" class="container my-5">
         <h2>Agenda</h2>
-        <table class="agenda-table">
-            <tr>
-                <th>Time</th>
-                <th>Event</th>
-            </tr>
-            <tr>
-                <td>9:00 AM</td>
-                <td>Opening Remarks</td>
-            </tr>
-            <tr>
-                <td>10:00 AM</td>
-                <td>Keynote Speech</td>
-            </tr>
-            <tr>
-                <td>11:00 AM</td>
-                <td>Panel Discussion</td>
-            </tr>
-            <tr>
-                <td>12:00 PM</td>
-                <td>Lunch</td>
-            </tr>
-            <tr>
-                <td>1:00 PM</td>
-                <td>Poster Presentations</td>
-            </tr>
+        <table class="table table-bordered agenda-table">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Event</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>9:00 AM</td><td>Opening Remarks</td></tr>
+                <tr><td>10:00 AM</td><td>Keynote Speech</td></tr>
+                <tr><td>11:00 AM</td><td>Panel Discussion</td></tr>
+                <tr><td>12:00 PM</td><td>Lunch</td></tr>
+                <tr><td>1:00 PM</td><td>Poster Presentations</td></tr>
+            </tbody>
         </table>
     </section>
-    
-    <section id="keynote">
+
+    <section id="keynote" class="container my-5">
         <h2>Keynote Speakers</h2>
-        <p>To Be Announced</p>
+       
+        <ul>
+            <li>To Be Announced</li>
+            <li></li>
+            <li></li>
+        </ul>
     </section>
     
-    <section id="panel">
+    <section id="panel" class="container my-5">
         <h2>Panel Discussion</h2>
         <p>Meet the experts who will be sharing their insights.</p>
         <ul>
@@ -89,12 +81,14 @@
         </ul>
     </section>
     
-    <section id="poster">
+    <section id="poster" class="container my-5">
         <h2>Poster Presentations @ Exhibition Booth</h2>
         <p>Researchers present posters and engage with attendees in an interactive exhibition-style setup</p>
         <p>Venture into potential collaborations and career opportunities in AI-related domains.</p>
     </section>
     
     <script src="script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
