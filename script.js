@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const registerButton = document.getElementById("register-btn");
     registerButton.addEventListener("click", function() {
         alert("Registration is currently closed. Stay tuned for updates!");
+        //https://forms.office.com/r/rMPzntEGgh
     });
     const navbarHeight = document.querySelector("nav").offsetHeight;
     

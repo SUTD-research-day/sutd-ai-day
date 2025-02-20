@@ -4,6 +4,7 @@ body {
     padding: 0;
     text-align: center;
     background-color: #f4f4f4;
+    overflow-x: hidden;
 }
 
 header {
@@ -12,7 +13,7 @@ header {
     padding: 15px 50px;
     font-size: 18px;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     left: 0;
     z-index: 1001;
@@ -21,6 +22,24 @@ header {
     align-items: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.register-btn {
+    display: inline-block;
+    background-color: #FF5733;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-top: 20px;
+}
+
+.register-btn:hover {
+    background-color: #C70039;
+}
+
 
 .nav-logo {
     font-size: 22px;
