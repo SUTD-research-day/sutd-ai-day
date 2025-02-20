@@ -112,6 +112,10 @@ section ul {
     list-style-type: none;
 }
 
+#panel ul {
+    text-align: center;
+}
+
 #agenda-text {
     text-align: left;
 }
