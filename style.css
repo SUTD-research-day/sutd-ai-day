@@ -98,6 +98,13 @@ body {
 } */
 
 /* Register Button */
+.centered-image {
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    max-width: 100%; /* Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
+}
+
 .register-btn {
     display: inline-block;
     background-color: #002147;
