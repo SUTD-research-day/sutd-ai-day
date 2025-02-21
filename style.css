@@ -62,7 +62,7 @@ body {
     /* min-height: 100vh; */
     object-fit: cover;
     z-index: 0;
-    clip-path: inset(0 0 15% 0); /* Crops bottom 15% of the video */
+    clip-path: inset(0 0 30% 0); /* Crops bottom 15% of the video */
 }
 
 .banner-text {
