@@ -43,34 +43,9 @@ body {
 .navbar-nav .nav-link:hover {
     border-bottom: 2px solid #FFA500;
 }
-.banner {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-}
-
-.banner-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-}
-
-.banner-text {
-    position: relative;
-    z-index: 1;
-    font-size: 36px;
-    font-weight: bold;
-    text-align: center;
-}
 
 /* Banner Section */
-/* .banner {
+.banner {
     position: relative;
     background: url('images/aiday-orig.jpeg') no-repeat center center;
     background-size: contain;
@@ -86,14 +61,14 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     margin-top: 56px; /* Navbar height compensation */
-/* } */ 
+}
 
-/* .banner-text {
+.banner-text {
     position: relative;
     z-index: 1;
     font-size: 36px;
     font-weight: bold;
-} */
+}
 
 /* Register Button */
 .register-btn {
